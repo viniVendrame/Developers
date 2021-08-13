@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class Contact
+    public class Contact : Base
     {
         public string Phone { get; set; }
         public string Email { get; set; }
