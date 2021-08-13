@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    class ContactRepository:BaseRepository<Contact>
+    public class ContactRepository:BaseRepository<Contact>
     {
     }
 }
