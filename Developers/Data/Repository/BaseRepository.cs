@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    class BaseRepository<T> where T : Base
+    public class BaseRepository<T> where T : Base
     {
         T repository = Activator.CreateInstance<T>();
         public void Create(T model)
