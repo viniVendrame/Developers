@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Context
+namespace Data.Repository
 {
-    class ContactRepository:BaseRepository<Contact>
+    class AddressRepository:BaseRepository<Address>
     {
     }
 }
