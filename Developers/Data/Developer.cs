@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    class Developer : Base
+    public class Developer : Base
     {
         public User User { get; set; }
         public Profile Profile { get; set; }
