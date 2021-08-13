@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class Profile
+    public class Profile : Base
     {
         public string Name { get; set; }
         public string Stack { get; set; }
