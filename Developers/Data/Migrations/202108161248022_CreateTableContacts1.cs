@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class CreateTableContacts : DbMigration
+    public partial class CreateTableContacts1 : DbMigration
     {
         public override void Up()
         {
